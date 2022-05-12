@@ -480,8 +480,8 @@ section .container {
   transition: ease-in-out 0.3s;
 }
 
-.interests .icon-box i {
-  font-size: 32px;
+.interests .icon-box img {
+  width: 50px;
   padding-right: 10px;
   line-height: 1;
 }
@@ -495,6 +495,11 @@ section .container {
   color: #fff;
 }
 
+.interests .icon-box a{
+  display: block;
+  margin: 0 auto;
+}
+
 .interests .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
 }
@@ -505,6 +510,17 @@ section .container {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+}
+
+.testimonials a{
+  display: block;
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+.testimonials img {
+  margin-top: 1rem;
 }
 
 .testimonials .testimonial-item .testimonial-img {
